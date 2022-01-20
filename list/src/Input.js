@@ -24,6 +24,7 @@ handleDeleteItem(ev) {
     let listArray = this.state.booksList;
     listArray.splice(ev.index, 1);
     this.setState({booksList: listArray});
+    
 }
 handleDeleteAll(){
     let listArray = this.state.booksList;
