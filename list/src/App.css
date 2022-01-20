@@ -1,0 +1,29 @@
+body{
+  background-image: url("./assets/bg1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+h1, h4 {
+  margin: 10px;
+}
+.crossed{
+  text-decoration: line-through 2px #6e0f00;
+  background: #c2c2c0;
+}
+ul, li{
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+}
+
+li{
+  margin: 5px;
+  cursor: pointer;
+  text-align: left;
+}
