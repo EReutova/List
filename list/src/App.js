@@ -20,20 +20,30 @@ function App() {
 }
 
 const Wrapper = styled.div`
-    width: 30%;
+    width: 80%;
     min-height: 80vh;
     background: rgba(85,85,76, 0.7);
-    margin: 20px 50px;
+    margin: 20px auto;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px #55554c, 0 0 20px #55554c, 0 0 30px #55554c;
-    @media (max-width: 400px) {
+    @media (min-width: 300px) {
+    } 
+    @media (min-width: 500px) {
         width: 80%;
         margin: 20px auto;
     } 
-    @media (max-width: 920px) {
+    @media (min-width: 600px) {
+        width: 80%;
+        margin: 20px auto;
+    } 
+    @media (min-width: 920px) {
         width: 70%;
         margin: 50px auto;
+    } 
+    @media (min-width: 1024px) {
+        width: 30%;
+        margin: 20px 50px;
     } 
 `;
 const Centered = styled.div`
