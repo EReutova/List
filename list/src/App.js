@@ -28,18 +28,12 @@ const Wrapper = styled.div`
     border-radius: 10px;
     box-shadow: 0 0 10px #55554c, 0 0 20px #55554c, 0 0 30px #55554c;
     @media (min-width: 300px) {
-    } 
-    @media (min-width: 500px) {
         width: 80%;
         margin: 20px auto;
     } 
-    @media (min-width: 600px) {
-        width: 80%;
+    @media (min-width: 700px) {
+        width: 60%;
         margin: 20px auto;
-    } 
-    @media (min-width: 920px) {
-        width: 70%;
-        margin: 50px auto;
     } 
     @media (min-width: 1024px) {
         width: 30%;
