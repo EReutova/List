@@ -22,11 +22,19 @@ function App() {
 const Wrapper = styled.div`
     width: 30%;
     min-height: 80vh;
-    background: rgba(85,85,76, 0.5);
+    background: rgba(85,85,76, 0.7);
     margin: 20px 50px;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px #55554c, 0 0 20px #55554c, 0 0 30px #55554c;
+    @media (max-width: 400px) {
+        width: 80%;
+        margin: 20px auto;
+    } 
+    @media (max-width: 920px) {
+        width: 70%;
+        margin: 50px auto;
+    } 
 `;
 const Centered = styled.div`
     display: flex;
