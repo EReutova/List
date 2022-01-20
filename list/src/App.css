@@ -14,7 +14,11 @@ h1, h4 {
 }
 .crossed{
   text-decoration: line-through 2px #6e0f00;
+  -webkit-text-decoration: line-through 2px #6e0f00;
+  -moz-text-decoration: line-through 2px #6e0f00;
+  -ms-text-decoration: line-through 2px #6e0f00;
   background: #c2c2c0;
+
 }
 ul, li{
   list-style-type: none;
