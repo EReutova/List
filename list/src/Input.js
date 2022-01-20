@@ -24,7 +24,7 @@ handleDeleteItem(ev) {
     let listArray = this.state.booksList;
     listArray.splice(ev.index, 1);
     this.setState({booksList: listArray});
-    
+
 }
 handleDeleteAll(){
     let listArray = this.state.booksList;
@@ -99,6 +99,12 @@ const Button = styled.button`
     &:hover{
         cursor: pointer;
         box-shadow: 0 0 5px #55554c, 0 0 10px #55554c, 0 0 20px #55554c;
+    }
+    @media (max-width: 400px) {
+        width: 50%;
+    } 
+    @media (max-width: 920px) {
+        width: 40%;
     }
 `;
 const DelBtn = styled(Button)`
